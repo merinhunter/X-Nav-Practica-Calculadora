@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora SPA</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="calculadora.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="calculadora.js" type="text/javascript"></script>
+
+</head>
+<body>
+  <div id=calc>
+    <input type="text" id="display"></input>
+    <table id="keyboard">
+      <tr>
+        <td>
+          <div class="button number" id="7">7</div>
+        </td>
+        <td>
+          <div class="button number" id="8">8</div>
+        </td>
+        <td>
+          <div class="button number" id="9">9</div>
+        </td>
+        <td>
+          <div class="button operand" id="divide">&divide;</div>
+        </td>
+        <td>
+          <div class="button operand" id="plusmn">&plusmn;</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="button number" id="4">4</div>
+        </td>
+        <td>
+          <div class="button number" id="5">5</div>
+        </td>
+        <td>
+          <div class="button number" id="6">6</div>
+        </td>
+        <td>
+          <div class="button operand" id="multiply">&times;</div>
+        </td>
+        <td>
+          <div class="button operand" id="sine">sin</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="button number" id="1">1</div>
+        </td>
+        <td>
+          <div class="button number" id="2">2</div>
+        </td>
+        <td>
+          <div class="button number" id="3">3</div>
+        </td>
+        <td>
+          <div class="button operand" id="subtract">&minus;</div>
+        </td>
+        <td>
+          <div class="button operand" id="cosine">cos</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="button special" id="point">.</div>
+        </td>
+        <td>
+          <div class="button number" id="0">0</div>
+        </td>
+        <td>
+          <div class="button special" id="delete">C</div>
+        </td>
+        <td>
+          <div class="button operand" id="add">&plus;</div>
+        </td>
+        <td>
+          <div class="button operand" id="tangent">tan</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <div class="button equal" id="equal">&equals;</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
